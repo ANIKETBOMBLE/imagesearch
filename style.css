@@ -3,4 +3,69 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body{
+	background:rosybrown;
+}
 
+#results{
+	display: flex;
+	background-size: contain;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#results img{
+	margin: 10px;
+	border-radius: 20px;
+	width: 300px;
+	height: 200px;
+	border: solid 2px;
+}
+
+#wrapper{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	gap: 10px;
+}
+
+#search{
+	padding:10px 40px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+#searchBtn{
+	padding: 0 20px;
+	border-radius: 15px;
+	background-color: rgba(0, 221, 255, 0.41);
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#searchBtn:hover{
+	transition: all 10ms;
+	transform: scale(1.1);
+	cursor: pointer;
+	background-color:rgba(0, 221, 255, 0.41);
+
+}
+
+#loadmoreBtn{
+	padding: 10px;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	border-radius: 10px;
+	background-color: crimson;
+	color: azure;
+}
+
+#results img:hover{
+	transition: all 4ms;
+	transform: scale(0.9);
+}
+
+::placeholder{
+	color: rgb(255, 204, 0);
+}
+	
